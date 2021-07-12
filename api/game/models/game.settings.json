@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "games",
+  "info": {
+    "name": "Game"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gamestate": {
+      "type": "json"
+    }
+  }
+}
